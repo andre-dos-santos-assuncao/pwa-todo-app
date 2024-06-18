@@ -1,7 +1,7 @@
 document.getElementById('todo-form').addEventListener("submit", function (e){
 
     e.preventDefault() ;
-    const input = documente.getElementById("todo-input");
+    const input = document.getElementById("todo-input");
     addTodo (input.value);
     input.value = "";
 
